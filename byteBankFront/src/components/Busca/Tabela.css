@@ -1,0 +1,77 @@
+.tabela_clientes {
+    background-color: #171B26;
+    color: #fff
+  }
+  .tabela_clientes .ant-table {
+    background: #171B26;
+    font-family: Roboto !important;
+    border: #171B26 !important;
+  }
+  
+  .tabela_clientes .ant-table-cell {
+    background: #171B26 !important;
+    color: #fff !important;
+    border: 1px;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+  }
+  .tabela_clientes .ant-table-cell::before {
+    width: 0px !important;
+  }
+  .tabela_clientes .ant-table-cell-row-hover {
+    background: #171B26 !important;
+  }
+  .ant-table-column-sorter-up.active,
+  .ant-table-column-sorter-down.active {
+    color: white;
+  }
+  .ant-table-column-sorter-up,
+  .ant-table-column-sorter-down {
+    color: white;
+  }
+  .ant-table-filter-dropdown .ant-table-filter-dropdown-btn .ant-table-filter-icon {
+    color: white !important;
+  }
+  .ant-table-filter-icon.anticon svg {
+    color: white !important;
+  }
+  table, th, td {
+    border:none;
+}
+input {
+  color: #fff;
+}
+
+tbody {
+  display:table-row-group;
+  vertical-align: middle;
+  unicode-bidi: isolate;
+  border-color: inherit;
+  font-size:medium;
+}
+
+.pagination {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.pagination button {
+  padding: 2px 6px;
+  margin: 0 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+}
+
+.pagination span {
+  margin: 0 5px;
+}
+

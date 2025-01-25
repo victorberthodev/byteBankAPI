@@ -1,0 +1,131 @@
+.cadastroContainer {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: auto;
+  max-width: 600px;
+  background-color: #090b13;
+  color: #fff;
+  margin-top: 2em;
+}
+
+.cadastroContainer h2 {
+  text-align: left;
+  margin-bottom: auto;
+}
+
+.acoes {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: 3px solid #fff; 
+  background-color: transparent; 
+  color: #090b13;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+  align-items: center;
+}
+button:hover {
+  background-color: #003399;
+  transform: translateY(-3px); 
+}
+
+button.active {
+  background-color: #034078; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+}
+
+
+form label {
+  font-weight: bold;
+  margin-bottom: 5px; 
+}
+
+form input,
+form select {
+  padding: 12px;
+  margin-bottom: 10px;
+  background-color: #272c39;
+  border: 1px solid #3d3d3d;
+  border-radius: 4px;
+  color: #fff;
+}
+
+form button {
+  padding: 10px;
+  background-color: #01153d;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+  background-color: #003399;
+  transform: translateY(-3px);
+}
+
+.criarUsuario {
+  align-self: flex-end; 
+  padding: 8px 16px;
+}
+
+.feedback {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: opacity 0.5s ease, transform 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.feedback.success {
+  background-color: #34c659;
+}
+
+.feedback.error {
+  background-color: #ff9501;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.actionSelect {
+  padding: 10px;
+  background-color: #272c39;
+  color: #fff;
+  border-radius: 4px;
+  border: none; 
+  width: 100%; 
+  cursor: pointer;
+}
+
+.actionSelect:hover {
+  background-color: #1f2430;
+}

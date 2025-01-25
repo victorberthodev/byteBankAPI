@@ -1,0 +1,73 @@
+.buscaContainer {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: -3%;
+  margin-right: 3%;
+  color: #fff;
+  margin-top: 2em;
+  
+}
+
+.buscaContainer h1 {
+  font-size: 26px;
+
+}
+
+.buscaContainer h1 {
+margin-bottom: 20px;
+}
+
+.buscaContainer div {
+margin-bottom: 20px;
+
+}
+
+.buscaContainer label {
+margin-right: 10px;
+}
+
+.buscaContainer input {
+padding: 8px;
+margin-right: 10px;
+border: none;
+border-radius: 4px;
+background-color: #171B26;
+}
+
+.buscaContainer button {
+padding: 5px 10px;
+background-color: #007bff;
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.buscaContainer button:hover {
+background-color: #003399;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+table, th, td {
+border: 1px solid #ddd;
+}
+
+th, td {
+padding: 8px;
+text-align: left;
+}
+
+th {
+background-color: #171B26;
+color: white;
+}
+
+tbody tr:nth-child(odd) {
+background-color: #1f3053;
+}
